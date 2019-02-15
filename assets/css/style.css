@@ -4,6 +4,41 @@
 	box-sizing: border-box;
 }
 
+.company-name {
+	font-size:4em!important;
+	text-shadow: 1px 1px white;
+}
+
+.company-tagline {
+	color: darkgrey;
+}
+
+.btn-outline-info{
+	background-color: cornsilk;
+	color:grey;
+	border-color:none;
+}
+
+a {
+	text-decoration: none!important;
+}
+
+.navbar-brand {
+	color:red!important;
+	font-weight: 700;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 95vh!important;
+}
+
+.btn-outline-info:hover{
+	background-color: cornsilk!important;
+	color:grey!important;
+	border-color:none!important;
+}
+
 .jumbotron hr {
 	display: block;
 	height: 2px;
@@ -93,11 +128,12 @@ body {
 }
 
 img {
-	width: 75vh; 
+	width: 350px;
+	height:400px;
 }	
 
 #mainpic {
-	height: 220px;
+	height: 70vh;
 	overflow: hidden;
 }
 
