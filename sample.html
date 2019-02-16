@@ -1,37 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewpoint" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
-	<title>GALLERY</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">	
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-
-	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<!-- GOOGLE FONT -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-	<!-- FONT AWESOME -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/lightbox.css">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-
-	<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
-
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
-	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
-
-	
-	<script type="text/javascript" src="assets/js/lightbox.js"></script>
-
-
-</head>
+    <title>Contact Us</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,7 +25,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="Gallery.html">Menu</a>
@@ -51,26 +33,15 @@
        <li class="nav-item">
         <a class="nav-link" href="Aboutus.html">About Us</a>
       </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="sample.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Order
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Delivery</a>
-          <a class="dropdown-item" href="#">Pickup</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Bulk Order</a>
-        </div>
+      <li class="nav-item active">
+        <a class="nav-link text-danger" href="sample.html">Order</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
 
       </li>
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0"> -->
-      <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-      <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
-    <!-- </form> -->
+   
   </div>
 </nav>
 
@@ -78,78 +49,77 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <br>
-            <form>
-              <div class="form-row">
-                <div class="col-lg-2 col-md-4 col-sm-12">
-                  <input type="text" class="form-control" placeholder="Customer ID">
+            <form class="pt-4">
+                <div class="form-row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                      <label for="id"></label>
+                      <input type="number" class="form-control" id="id" placeholder="ID">
+                    </div>
+                    <div class="col m-0">
+                      <label for="name"></label>
+                      <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
                 </div>
-                <div class="col-lg-10 col-md-8 col-sm-12">
-                  <input type="text" class="form-control" placeholder="Name">
-                </div>
-              </div>
             
               <div class="form-row">
-                  <div class="form-group col-4">
-                      <label for="inputEmail4"></label>
-                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <label for="inputEmail4"></label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                   </div>
-            
-                  <div class="form-group col-8">
-                        <label for="inputAddress"></label>
-                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  <div class="col m-0">
+                    <label for="inputAddress"></label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
                   </div>
               </div>
               <div class="form-row">
-                  <div class="form-group col-4">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
                       <label for="inputAddress2"></label>
                       <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                   </div>
-            
-                  <div class="form-group col-8">
+                  <div class="col m-0">
                     <label for="inputCity"></label>
                     <input type="text" class="form-control" id="inputCity" placeholder="City">
                   </div>
               </div>
               <div class="form-row">
-                  <div class="form-group col-4">
+                  <div class="col-lg-4 col-md-4 col-sm-12">
                   <label for="inputZip"></label>
                   <input type="text" class="form-control" id="inputZip" placeholder="ZipCode">
                 </div>
             
-                <div class="form-group col-4">
+                <div class="col">
                   <label for="inputZip"></label>
                   <input type="text" class="form-control" id="inputZip" placeholder="Mobile">
                 </div>
             
-                <div class="form-group col-4">
+                <div class="col-lg-4 col-md-4 col-sm-12">
                   <label for="inputZip"></label>
                   <input type="text" class="form-control" id="inputZip" placeholder="Telephone">
                 </div>
               </div>
-              <div class="form-row">
-                  <div class="form-group col-4">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                          Cash
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-                        <label class="form-check-label" for="defaultCheck2">
-                          Credit Card
-                        </label>
-                      </div>
-                    </div>
-                    <div class="form-group col-3">
-                        <button type="submit" class="btn-block btn-lg btn-primary">Cart</button>
-                      </div>
-                  </div>
+             
+              <div class="col-lg-4 col-md-6 col-sm-12 my-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                    Cash
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                  <label class="form-check-label" for="defaultCheck2">
+                    Credit Card
+                  </label>
+                </div>
               </div>
+              <div class="col-lg-4 col-mb-4 mb-4">
+                  <button type="submit" class="btn-block btn-lg btn-primary mt-2">Add To Cart</button>
+              </div>
+             
             </form>
       </div>
     </div>
+  </div>
   
 
     <!-- <a>
@@ -175,28 +145,30 @@
     <a href="assets/images/tilapia.png" target="gallery">
       <img src="assets/images/tilapia.png" height="50" width="50" class="img-thumbnail">
     </a> -->
-    <div class="container">
-
-    
+  <div class="container mb-5">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
             <a href="assets/images/chicken.png" data-lightbox="picture" data-title="Amazing">
-              <img height="50" width="50" src="assets/images/chicken.png">
+              <img height="100%" width="100%" src="assets/images/chicken.png" class="sample-img">
             </a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
             <a href="assets/images/xiao.png" data-lightbox="picture" data-title="Amazing">
-              <img height="50" width="50" src="assets/images/xiao.png">
+              <img height="100%" width="100%" src="assets/images/xiao.png" class="sample-img">
             </a>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
             <a href="assets/images/tilapia.png" data-lightbox="picture" data-title="Amazing">
-              <img height="50" width="50" src="assets/images/tilapia.png">
+              <img height="100%" width="100%" src="assets/images/tilapia.png" class="sample-img">
             </a>
         </div>
       </div>
     </div>
   </div>
+
+  <footer class="footer-copyright text-center py-5">© 2018 Copyright: 
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> HeraldsDimsum.com</a> 
+  </footer>
 
 </body>
 </html>
